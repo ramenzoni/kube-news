@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: web
-          image: ramenzoni/kube-news:v1
+          image: ramenzoni/kube-news:{{TAG}}
           ports:
           - containerPort: 8080
           env:
